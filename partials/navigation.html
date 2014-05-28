@@ -1,8 +1,5 @@
-<nav  class="navbar navbar-default navbar-fixed-top"
-      role="navigation"
-      ng-controller="NavigationController as controller"
-      bindonce>
-  <div class="container-fluid">
+<nav  class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid" ng-controller="NavigationController as controller">
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-items">
@@ -16,12 +13,12 @@
   
     <div class="collapse navbar-collapse" id="navbar-collapse-items">
       <ul class="nav navbar-nav navbar-right">
-        <li ng-if="!isLoggedIn">
-          <a href="#" ng-click="controller.showSigninDialog()">Sign in</a>
+        <li ng-if="!$parent.user">
+          <a href="#" ng-click="controller.login()">Sign in</a>
         </li>
-        <li class="dropdown user-dropdown-menu" ng-if="isLoggedIn">
+        <li ng-if="$parent.user" class="dropdown user-dropdown-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <img ng-src="{{userAvatarUrl}}" class="img-circle"/>
+            <img ng-src="{{user.thirdPartyUserData.avatar_url}}" class="img-circle user-img"/>
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">

@@ -1,1 +1,9 @@
-angular.module 'application', ['firebase', 'ui.router']
+angular.module('application', [
+  'firebase'
+  'ui.router'
+]).run [ 
+  'Session'
+
+  (Session) ->
+    Session.init()
+]
