@@ -9,9 +9,7 @@ angular.module('application').controller 'HomePageController', [
 
     addMessage: (item) ->
       @$scope.items.$add
-        title: item.title
         description: item.description
-        votes: 0
 
     upVote: (item) ->
       item = @$scope.items.$child(item.$id)
