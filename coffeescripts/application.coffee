@@ -1,1 +1,1 @@
-angular.module "application", ["firebase"]
+angular.module 'application', ['firebase', 'ui.router']

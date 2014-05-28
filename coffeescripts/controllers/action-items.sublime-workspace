@@ -1,0 +1,605 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"provi",
+				"provider"
+			],
+			[
+				"sor",
+				"source"
+			],
+			[
+				"pro",
+				"providers"
+			],
+			[
+				"_",
+				"_getPrimarySource"
+			],
+			[
+				"is",
+				"isCollaborator"
+			],
+			[
+				"repo",
+				"repoPath"
+			],
+			[
+				"user",
+				"userHasGitHubCredential"
+			],
+			[
+				"gith",
+				"githubProvider"
+			],
+			[
+				"cre",
+				"credential"
+			],
+			[
+				"cred",
+				"credentials"
+			],
+			[
+				"githu",
+				"githubCredential"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jburton/projects/action-items/index.html",
+			"settings":
+			{
+				"buffer_size": 880,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "navigation.coffee",
+			"settings":
+			{
+				"buffer_size": 139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jburton/projects/action-items/coffeescripts/application.coffee",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jburton/projects/action-items/Gruntfile.coffee",
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jburton/projects/action-items/action-items.sublime-project",
+		"/Users/jburton/projects/action-items/partials/navigation.html",
+		"/Users/jburton/projects/action-items/vendor/ui-router.min.js",
+		"/Users/jburton/projects/action-items/src/application.coffee",
+		"/Users/jburton/projects/action-items/.gitignore",
+		"/Users/jburton/projects/action-items/package.json",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/project-routes.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/models/project.coffee",
+		"/Users/jburton/projects/waffle.io-app/package.json",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/requirejs-config.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/route-helpers.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/github-helper.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/partials/board/board.html",
+		"/Users/jburton/projects/waffle.io-app/server/src/middleware/provider-middleware.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/views/login-modal.jade",
+		"/Users/jburton/projects/waffle.io-app/server/views/application.jade",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/marketing-routes.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/board-routes.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/app-route-handler.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/middleware/auth-middleware.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/partials/board/source-dropdown-menu.html",
+		"/Users/jburton/projects/waffle.io-app/scripts/lowercase-columns.js",
+		"/Users/jburton/projects/waffle.io-app/server/views/light-landing.jade",
+		"/Users/jburton/projects/waffle.io-app/server/src/middleware/github-middleware.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/routes.coffee",
+		"/Users/jburton/projects/waffle.io-app/README.md",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/session.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/spec/karma/service/session-spec.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/spec/karma/service/column-spec.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/card.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/views/intercom.jade",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/dragging.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/server.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/controllers/board/badge-pull-request-banner.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/controllers/board/detail-modal.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/directives/github-markdown.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/directives/board/comment-label.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/github/collaborator.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/github/issue.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/github/label.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/service/github/milestone.coffee",
+		"/Users/jburton/projects/waffle.io-app/scripts/add-pr-start-to-backlog.js",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/controllers/site-header.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/directives/board/comment-form.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/directives/settings/github-enterprise-connect-form.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/views/404.jade",
+		"/Users/jburton/projects/waffle.io-app/server/views/pricing-page.jade",
+		"/Users/jburton/projects/waffle.io-app/server/views/header.jade",
+		"/Users/jburton/projects/waffle.io-app/server/views/head.jade",
+		"/Users/jburton/projects/waffle.io-app/server/views/landing-2.jade",
+		"/Users/jburton/projects/waffle.io-app/server/src/models/provider.coffee",
+		"/Users/jburton/projects/waffle.io-app/_blogconfig.yml",
+		"/Users/jburton/projects/waffle.io-app/server/views/about.jade",
+		"/Users/jburton/projects/waffle.io-app/client/styles/app/github-task-list.less",
+		"/Users/jburton/projects/waffle.io-app/client/styles/app/github-icons.less",
+		"/Users/jburton/projects/waffle.io-app/Gruntfile.coffee",
+		"/Users/jburton/projects/data-science/data/april.json.gz",
+		"/Users/jburton/projects/waffle.io-app/nodemon.json",
+		"/Users/jburton/.zshrc",
+		"/Users/jburton/projects/waffle.io-app/server/src/errors.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/spec/feature-toggle-spec.coffee",
+		"/Users/jburton/projects/waffle.io-app/server/src/routes/project-route-handler.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/vendor/angular-ui-router-0.2.8.js",
+		"/Users/jburton/projects/waffle.io-app/server/src/middleware/project-middleware.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/partials/project-dropdown.html",
+		"/Users/jburton/projects/waffle.io-app/server/spec/routes/project-routes-spec.coffee",
+		"/Users/jburton/projects/waffle.io-app/Procfile",
+		"/Users/jburton/projects/waffle.io-app/server/src/pull-request-handler.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/partials/column-editor.html",
+		"/Users/jburton/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jburton/Documents/ir_black_boldless.tmTheme",
+		"/Users/jburton/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/angular-extensions/q-all-settled.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/partials/settings/settings.general.html",
+		"/Users/jburton/projects/waffle.io-app/client/vendor/angular-local-storage.js",
+		"/Users/jburton/projects/waffle.io-app/server/spec/intercom-helper-spec.coffee",
+		"/Users/jburton/projects/waffle.io-app/client/src/app/directives/infinite-scrolling.coffee",
+		"/Users/jburton/projects/waffle.io-app/blog/index.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"<project>, -*spec.coffee",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"navbar-collapse-items",
+			"https:",
+			"dest",
+			"src/",
+			"client/",
+			", ",
+			"serverSrc",
+			"_.",
+			"_",
+			"console.log",
+			"session",
+			"session.github",
+			"isRepoPrivate",
+			"isViewer",
+			"isCollaborator",
+			"console.log 2",
+			".clientId",
+			"res.render",
+			"include header",
+			"header",
+			"login-modal",
+			"page",
+			"site-header",
+			"SessionService",
+			"_getPrimarySource",
+			"@source",
+			"console.log",
+			"_getPrimarySource",
+			"'",
+			"@source",
+			"fetchProjectProviders",
+			"user",
+			"Application.applicationAccessToken",
+			"applicationAccessToken",
+			"applicationClientId",
+			"login/oauth/authorize",
+			"res.render",
+			"checkValidTokens"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Application.github.clientId"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jburton/projects/action-items/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "navigation.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jburton/projects/action-items/coffeescripts/application.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jburton/projects/action-items/Gruntfile.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "action-items.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"projrouha",
+				"server/src/routes/project-route-handler.coffee"
+			],
+			[
+				"routehelp",
+				"server/src/routes/route-helpers.coffee"
+			],
+			[
+				"github.co",
+				"server/src/auth/github.coffee"
+			],
+			[
+				"provimi",
+				"server/src/middleware/provider-middleware.coffee"
+			],
+			[
+				"boardrout",
+				"server/src/routes/board-routes.coffee"
+			],
+			[
+				"projrou",
+				"server/src/routes/project-routes.coffee"
+			],
+			[
+				"projmid",
+				"server/src/middleware/project-middleware.coffee"
+			],
+			[
+				"boarrout",
+				"server/src/routes/board-routes.coffee"
+			],
+			[
+				"githhe",
+				"server/src/github-helper.coffee"
+			],
+			[
+				"approuhan",
+				"server/src/routes/app-route-handler.coffee"
+			],
+			[
+				"boarrou",
+				"server/src/routes/board-routes.coffee"
+			],
+			[
+				"appli",
+				"server/views/application.jade"
+			],
+			[
+				"login",
+				"server/views/login-modal.jade"
+			],
+			[
+				"require",
+				"client/src/app/requirejs-config.coffee"
+			],
+			[
+				"servicesession",
+				"client/src/app/service/session.coffee"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"githhel",
+				"server/src/github-helper.coffee"
+			],
+			[
+				"provi",
+				"server/src/middleware/provider-middleware.coffee"
+			],
+			[
+				"routehel",
+				"server/src/routes/route-helpers.coffee"
+			],
+			[
+				"approuha",
+				"server/src/routes/app-route-handler.coffee"
+			],
+			[
+				"githmid",
+				"server/src/middleware/github-middleware.coffee"
+			],
+			[
+				"boarroute",
+				"server/src/routes/board-routes.coffee"
+			],
+			[
+				"session",
+				"client/src/app/service/session.coffee"
+			],
+			[
+				"head",
+				"server/views/header.jade"
+			],
+			[
+				"landing",
+				"server/views/light-landing.jade"
+			],
+			[
+				"provimid",
+				"server/src/middleware/provider-middleware.coffee"
+			],
+			[
+				"aut",
+				"server/src/middleware/auth-middleware.coffee"
+			],
+			[
+				"projec.",
+				"server/src/models/project.coffee"
+			],
+			[
+				"authmid",
+				"server/src/middleware/auth-middleware.coffee"
+			],
+			[
+				"projec",
+				"server/src/models/project.coffee"
+			],
+			[
+				"projerou",
+				"server/src/routes/project-route-handler.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

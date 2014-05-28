@@ -1,6 +1,8 @@
 <html ng-app="application">
   <head>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/main.css">
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -11,8 +13,17 @@
 
   <body>
     <ng-include src=" 'partials/navigation.html' "></ng-include>
+
+    <div class="page-ct container-fluid" ui-view></div>
+    
+    <script src="dist/vendor/angular-ui-router.min.js"></script>
     
     <script src='dist/javascripts/application.js'></script>
+    <script src='dist/javascripts/routes.js'></script>
+
     <script src='dist/javascripts/controllers/navigation.js'></script>
+    <script src='dist/javascripts/controllers/pages/home.js'></script>
+    
+    <script src='dist/javascripts/services/item.js'></script>
   </body>
 </html>
