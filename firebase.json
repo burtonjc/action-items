@@ -1,6 +1,6 @@
 {
   "firebase": "boiling-fire-9977",
-  "public": ".",
+  "public": "./dist",
   "ignore": [
     "firebase.json",
     ".*",

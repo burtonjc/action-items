@@ -23,6 +23,10 @@ module.exports = (grunt) ->
         ext: '.js'
 
     copy:
+      index:
+        cwd: '.'
+        src: 'index.html'
+        dest: 'dist/'
       partials:
         cwd: 'partials'
         src: '**/*.html'
@@ -52,6 +56,9 @@ module.exports = (grunt) ->
           "dist/main.css": "styles/**/*.less"
 
     watch:
+      index:
+        files: 'index.html'
+        tasks: ['copy:index']
       partials:
         files: 'partials/**/*.html'
         tasks: ['copy:partials']
