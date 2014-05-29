@@ -7,10 +7,8 @@ Follow these steps to get set up:
 
   1. fork the repo and clone your fork to your machine
   2. cd into the directory with the app
-  3. ```npm install```
-  4. ```grunt && grunt watch```
-  5. open index.html in your browser
-
-You will have to run the `dist` folder as a local server. The easiest way to do that is going to the dist folder (`cd dist`) and then running `python -m SimpleHTTPServer`. 
-
-Go to http://localhost:8000
+  3. `npm install`
+  4. `grunt && grunt watch`
+  5. open up a new terminal tab and `cd dist/`
+  6. `python -m SimpleHTTPServer`
+  7. open your browser and navigate to http://localhost:8000
