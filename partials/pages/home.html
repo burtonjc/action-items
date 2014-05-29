@@ -26,12 +26,16 @@
 
     <div ng-repeat="item in items | orderByPriority | filter:'!owner' | orderBy:'votes':true">
       <div class="panel panel-default">
+        <div class="panel-heading text-center" ng-if="item.owner">
+          <button class="btn btn-link pull-right" ng-click="controller.ditch(item)" ng-if="user">ditch</button>          
+          <img class="img-rounded owner-image pull-left" ng-src="{{item.owner.thirdPartyUserData.avatar_url}}"/>
+        </div>
         
         <div class="panel-body">
          {{item.description}}
         </div>
 
-        <div class="panel-footer">
+        <div class="panel-footer" ng-if="!item.owner">
           <button class="btn btn-link pull-right" ng-click="controller.claim(item)" ng-if="user">claim</button>
 
           <button class="btn btn-default" ng-click="controller.downVote(item)"><i class="fa fa-thumbs-o-down"></i></button>
@@ -47,14 +51,21 @@
 
     <div ng-repeat="item in items | orderByPriority | filter:'owner' | orderBy:'votes':true">
       <div class="panel panel-default">
-        <div class="panel-heading text-center">
+        <div class="panel-heading text-center" ng-if="item.owner">
           <button class="btn btn-link pull-right" ng-click="controller.ditch(item)" ng-if="user">ditch</button>          
           <img class="img-rounded owner-image pull-left" ng-src="{{item.owner.thirdPartyUserData.avatar_url}}"/>
         </div>
-
         
         <div class="panel-body">
-         <p>{{item.description}}</p>
+         {{item.description}}
+        </div>
+
+        <div class="panel-footer" ng-if="!item.owner">
+          <button class="btn btn-link pull-right" ng-click="controller.claim(item)" ng-if="user">claim</button>
+
+          <button class="btn btn-default" ng-click="controller.downVote(item)"><i class="fa fa-thumbs-o-down"></i></button>
+          <div class="badge">{{item.votes}}</div>
+          <button class="btn btn-default" ng-click="controller.upVote(item)"><i class="fa fa-thumbs-o-up"></i></button>
         </div>
       </div>
     </div>
