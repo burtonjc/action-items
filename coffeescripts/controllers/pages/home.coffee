@@ -10,6 +10,7 @@ angular.module('application').controller 'HomePageController', [
     addMessage: (item) ->
       @$scope.items.$add
         description: item.description
+        votes: 0
 
     upVote: (item) ->
       item = @$scope.items.$child(item.$id)
@@ -22,4 +23,14 @@ angular.module('application').controller 'HomePageController', [
       item.votes ?= 0
       item.$update
         votes: item.votes - 1
+
+    claim: (item) ->
+      item = @$scope.items.$child(item.$id)
+      item.$update
+        owner: @$scope.user
+
+    ditch: (item) ->
+      item = @$scope.items.$child(item.$id)
+      item.$update
+        owner: null
 ]
