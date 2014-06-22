@@ -1,5 +1,6 @@
 module.exports = (grunt) ->
 
+  grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-copy'
@@ -8,11 +9,20 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
 
   grunt.registerTask 'default', ['clean', 'coffee', 'less', 'copy']
+  grunt.registerTask 'start', ['connect']
   grunt.registerTask 'test', ['karma:all']
 
   grunt.initConfig
 
     clean: ['dist']
+
+    connect:
+      server:
+        options:
+          base: './dist/'
+          keepalive: true
+          open: true
+          port: 9001
 
     coffee:
       src:

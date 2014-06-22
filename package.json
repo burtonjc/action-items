@@ -4,7 +4,8 @@
   "description": "App to help prioritize action items that come out of a meeting",
   "private": true,
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "start": "grunt start"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "firebase-tools": "^1.0.4",
     "grunt-contrib-clean": "^0.5.0",
     "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-connect": "^0.8.0",
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-less": "^0.11.1",
     "grunt-contrib-watch": "^0.6.1",
