@@ -3,9 +3,10 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-copy'
-  grunt.loadNpmTasks 'grunt-karma'
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-watch'
+  grunt.loadNpmTasks 'grunt-karma'
+  grunt.loadNpmTasks 'grunt-shell'
 
   grunt.registerTask 'default', ['clean', 'coffee', 'less', 'copy']
   grunt.registerTask 'test', ['karma:all']
@@ -71,3 +72,7 @@ module.exports = (grunt) ->
       vendor:
         files: 'vendor/**/*'
         tasks: ['copy:vendor']
+
+    shell:
+      server:
+        command: 'http-server dist/'
