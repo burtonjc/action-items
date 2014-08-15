@@ -36,11 +36,11 @@
         </div>
 
         <div class="panel-footer" ng-if="!item.owner">
-          <button class="btn btn-link pull-right" ng-click="controller.claim(item)" ng-if="user">claim</button>
-
           <button class="btn btn-default" ng-click="controller.downVote(item)"><i class="fa fa-thumbs-o-down"></i></button>
           <div class="badge">{{item.votes}}</div>
           <button class="btn btn-default" ng-click="controller.upVote(item)"><i class="fa fa-thumbs-o-up"></i></button>
+          <button class="btn btn-link pull-right" ng-click="controller.claim(item)" ng-if="user">claim</button>
+          <button class="btn btn-link pull-right delete" ng-click="controller.delete(item)" ng-if="user">delete</button>
         </div>
       </div>
     </div>

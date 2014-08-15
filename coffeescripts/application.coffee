@@ -1,7 +1,7 @@
 angular.module('application', [
   'firebase'
   'ui.router'
-]).run [ 
+]).run [
   'Session'
 
   (Session) ->

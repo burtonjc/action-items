@@ -5,7 +5,7 @@ angular.module('application').service 'Session', [
     constructor: (@$rootScope, @$window) ->
 
     init: ->
-      ref = new Firebase "https://boiling-fire-9977.firebaseio.com"
+      ref = new Firebase "https://action-items.firebaseio.com"
       @auth = new FirebaseSimpleLogin ref, (error, user) =>
         if error
           # an error occurred while attempting login
