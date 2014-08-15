@@ -19,10 +19,9 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
-          base: './dist/'
-          keepalive: true
-          open: true
-          port: 9001
+          base: './dist/',
+          port: 9001,
+          keepalive: true,
 
     coffee:
       src:

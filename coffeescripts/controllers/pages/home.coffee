@@ -5,7 +5,6 @@ angular.module('application').controller 'HomePageController', [
   class HomePageController
     constructor: (@$scope, Item) ->
       @$scope.items = Item
-      $scope.items.$bind($scope, 'item.votes')
 
     addMessage: (item) ->
       @$scope.items.$add
@@ -33,4 +32,7 @@ angular.module('application').controller 'HomePageController', [
       item = @$scope.items.$child(item.$id)
       item.$update
         owner: null
+
+    delete: (item) ->
+      @$scope.items.$remove(item.$id)
 ]
