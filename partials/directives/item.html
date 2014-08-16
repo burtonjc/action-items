@@ -1,0 +1,21 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <img class="img-rounded owner-image" ng-if="item.owner" ng-src="{{item.owner.thirdPartyUserData.avatar_url}}"/>
+    
+    <button class="btn btn-link" ng-click="claim(item)" ng-if="user && !item.owner">claim</button>
+    <button class="btn btn-link" ng-click="ditch(item)" ng-if="user && item.owner">ditch</button>          
+    
+    <i class="fa fa-times close pull-right" ng-click="delete()"></i>
+  </div>
+  
+  <div class="panel-body">
+   {{item.description}}
+  </div>
+
+  <div class="panel-footer text-center" ng-if="!item.owner">
+
+    <button class="btn btn-default" ng-click="downVote(item)"><i class="fa fa-thumbs-o-down"></i></button>
+    <div class="badge">{{item.votes}}</div>
+    <button class="btn btn-default" ng-click="upVote(item)"><i class="fa fa-thumbs-o-up"></i></button>
+  </div>
+</div>
