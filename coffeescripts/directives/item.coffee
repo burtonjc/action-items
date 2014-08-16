@@ -11,7 +11,9 @@ angular.module('application').directive 'actionItem', [
       item: '=item'
 
     link: (scope, element, attrs, controller) ->
-      scope.user = $rootScope.user
+      unbind = $rootScope.$watch 'user', (user) ->
+        scope.user = user
+      scope.$on '$destroy', unbind
 
       scope.upVote = ->
         item = Item.$child scope.item.$id
