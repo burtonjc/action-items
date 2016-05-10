@@ -11,3 +11,6 @@ Follow these steps to get set up:
   4. `grunt && grunt watch`
   5. open up a new terminal tab and `cd dist/`
   6. `npm start`
+
+
+yo
